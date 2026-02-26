@@ -84,7 +84,7 @@ export default function Home() {
           <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
             <div className="flex flex-col gap-8">
               <motion.h1 className="font-bold tracking-[-0.03em] leading-[0.88]" style={sg} variants={fadeUp} initial="hidden" animate="visible" custom={0}>
-                <span className="block text-[clamp(2.8rem,6vw,5.5rem)] text-white uppercase">FEEL THE</span>
+                <span className="block text-[clamp(2.8rem,6vw,5.5rem)] text-white uppercase">FEEL THE </span>
                 <span className="block text-[clamp(2.8rem,6vw,5.5rem)] text-[#00F0FF] uppercase">MARKET.</span>
               </motion.h1>
               <motion.p className="text-[#666] text-[15px] sm:text-base max-w-[380px] leading-[1.75]" style={sg} variants={fadeUp} initial="hidden" animate="visible" custom={1}>
